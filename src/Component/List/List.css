@@ -1,0 +1,7 @@
+.outSide {
+    min-height: calc(100vh - 80px);
+    background-color:whitesmoke;
+    width: 100vw;
+    padding: 70px;
+}
+

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
+import './Watchlist.css';
 
 
 
@@ -26,7 +27,7 @@ class WatchList extends Component {
     })
         return(
             <div className='watchList'>
-                <h2>Watch List</h2>
+                <h1>Watch List</h1>
                 <ul>
                 {mappedList}
                 </ul>

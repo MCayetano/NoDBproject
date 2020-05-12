@@ -1,13 +1,17 @@
 import React from 'react';
 import List from './Component/List/List';
-import WatchList from  './Component/Watchlist/WatcList';
+import Header from './Component/Header/Header';
+import Footer from './Component/Footer/Footer';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
+     <Header />
      <List />
-     {/* <WatchList /> */}
+     <Footer />
     </div>
   );
 }

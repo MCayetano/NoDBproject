@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import WatchList from '../Watchlist/WatcList';
+// import Footer from '../Footer/Footer';
+import './List.css';
 
 class List extends Component {
     constructor() {
